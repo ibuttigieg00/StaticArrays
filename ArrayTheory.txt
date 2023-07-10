@@ -1,0 +1,7 @@
+Ram (Random Access Memory) is measured in bytes.
+1 GB = 109
+1 byte = 8 bits
+RAM consists of two things, a value and an address. A value will be stored in a particular address in the memory. 
+If you want to read a value in the array, it has O(1) big 0(1). It can read the value instantly.
+If you want to insert a value in the array, one after the other, at the end of the array, it is O(1).
+If you want to insert a value in a particular position, and shift all values, it becomes 0(n). That is worst case scenario. N is the number of elements.
